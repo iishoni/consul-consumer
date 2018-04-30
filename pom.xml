@@ -3,7 +3,6 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.dxk</groupId>
     <artifactId>consul-consumer</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -26,11 +25,11 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.spring4all</groupId>
-            <artifactId>swagger-spring-boot-starter</artifactId>
-            <version>1.7.0.RELEASE</version>
-        </dependency>
 
+        <dependency>
+            <groupId>com.iishoni</groupId>
+            <artifactId>consul-provider-api</artifactId>
+            <version>1.0</version>
+        </dependency>
     </dependencies>
 </project>
