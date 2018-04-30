@@ -1,5 +1,5 @@
 swagger:
-    base-package: com.iishoni.*.web
+    base-package: com.iishoni.consulconsumer.web
     base-path: /**
     exclude-path: /error
 
