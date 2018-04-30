@@ -2,3 +2,6 @@ swagger:
     base-package: com.iishoni
     base-path: /**
     exclude-path: /error
+
+provider: consul-provider@env@
+
