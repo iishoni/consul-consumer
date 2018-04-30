@@ -1,4 +1,4 @@
-package com.dxk.feign;
+package com.iishoni.consulconsumer.feign;
 
 import com.iishoni.api.UserApi;
 

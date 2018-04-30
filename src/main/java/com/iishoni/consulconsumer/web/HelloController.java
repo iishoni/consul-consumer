@@ -1,6 +1,6 @@
-package com.dxk.web;
+package com.iishoni.consulconsumer.web;
 
-import com.dxk.feign.UserFeign;
+import com.iishoni.consulconsumer.feign.UserFeign;
 import com.iishoni.model.User;
 
 import org.springframework.web.bind.annotation.GetMapping;
