@@ -20,7 +20,11 @@ public class HelloController {
     @GetMapping("/{id}")
     public String hello(@PathVariable Long id) {
         User user = userFeign.getUserInfo(id).getData();
-        return "hello【" + user.getUsername() + "】";
+        return "hello " + user.getNick() + "[" + user.getUsername() + "], " +
+                "your are [" + user.getAge() + "] years old, " +
+                "your birthday is [" + user.getBirthday() + "], " +
+                "your mobile is [" + user.getMobile() + "], " +
+                "the last time you login is [" + user.getLastLoginTime() + "]";
     }
 }
 
