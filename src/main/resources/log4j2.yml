@@ -48,6 +48,8 @@ Configuration:
     Logger:
       - name: org.springframework
         level: info
+      - name: springfox
+        level: info
       - name: org.mybatis
         level: info
       - name: org.apache.http
