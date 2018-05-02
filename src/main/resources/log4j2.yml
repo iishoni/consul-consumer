@@ -45,3 +45,12 @@ Configuration:
       AppenderRef:
         - ref: CONSOLE
         - ref: ROLLING_FILE
+    Logger:
+      - name: org.springframework
+        level: info
+      - name: org.mybatis
+        level: info
+      - name: org.apache.http
+        level: info
+      - name: com.zaxxer.hikari.pool
+        level: info
