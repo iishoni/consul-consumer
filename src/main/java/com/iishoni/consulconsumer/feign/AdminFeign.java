@@ -1,9 +1,8 @@
 package com.iishoni.consulconsumer.feign;
 
-import com.iishoni.api.UserApi;
-
+import com.iishoni.api.AdminApi;
 import org.springframework.cloud.openfeign.FeignClient;
 
 @FeignClient("${provider}")
-public interface UserFeign extends UserApi {
+public interface AdminFeign extends AdminApi {
 }
